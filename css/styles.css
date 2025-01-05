@@ -329,7 +329,7 @@ body {
 
 .main-button {
   min-width: 169px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -609,13 +609,13 @@ body {
 
 @media screen and (min-width: 768px) {
   .team-cards {
-    width: calc((100%-24px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 }
 
 @media screen and (min-width: 1158px) {
   .team-cards {
-    width: calc((100%-72px) / 4);
+    width: calc((100% - 72px) / 4);
   }
 }
 
@@ -721,13 +721,13 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  portfolio-list:not(:last-child) {
+  .portfolio-list:not(:last-child) {
     margin-bottom: 48px;
   }
 }
 
 @media screen and (min-width: 1158px) {
-  portfolio-list {
+  .portfolio-list {
     width: calc((100% - 48px) / 3);
   }
 }
